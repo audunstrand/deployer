@@ -1,0 +1,17 @@
+package: github.com/audunstrand/deployer
+import:
+- package: k8s.io/client-go
+  version: ^2.0.0
+  subpackages:
+  - kubernetes
+  - pkg/api
+  - pkg/api/errors
+  - pkg/api/meta
+  - pkg/api/unversioned
+  - pkg/api/v1
+  - pkg/apis/extensions/v1beta1
+  - pkg/runtime
+  - pkg/runtime/serializer
+  - plugin/pkg/client/auth/gcp
+  - rest
+  - tools/clientcmd

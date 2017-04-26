@@ -1,0 +1,12 @@
+{
+  "apiVersion": "k8s.io/v1",
+  "kind": "App",
+  "metadata": {
+    "name": "app4",
+    "namespace": "default"
+  },
+  "spec": {
+    "active": true,
+    "name": "app4"
+  }
+}
